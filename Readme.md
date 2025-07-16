@@ -1,6 +1,6 @@
-## 알고리즘의 시, 공간 복잡도 측정기
+# 알고리즘의 시, 공간 복잡도 측정기
 
-### 사용 하기 전에
+## 사용 하기 전에
 
 > **Python 가상환경 변경**
 
@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 위의 명령어를 개인이 사용하는 Terminal 에 입력하여 필요 패키지들을 설치합니다.  
 
-### 사용 방법
+## 사용 방법
 
 ```terminal
 python measure_complexity.py
@@ -40,7 +40,7 @@ times, mem_mib, mem_kib = measure(eratosthenes, input_sizes)
 개인이 확인하고 싶은 알고리즘을 해당 부분에 넣거나, `import` 하신 후에,  
 `110 lines`에 선언되어 있는 `times, mem_mib, mem_kib` 부분의 함수 파라미터를 위와 같이 수정합니다.
 
-### Output
+## 출력
 
 ```terminal
 time_complexity.png
