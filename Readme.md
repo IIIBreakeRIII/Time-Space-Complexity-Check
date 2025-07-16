@@ -9,14 +9,18 @@
 
 자세한 내용은, [matplotlib 공식 릴리즈 문서](https://discourse.matplotlib.org/t/matplotlib-announce-ann-matplotlib-3-10-0/25601)를 참고해주세요.  
 
-> `pip install -r requirements.txt`
+```python
+pip install -r requirements.txt
+```
 
 위의 명령어를 개인이 사용하는 Terminal 에 입력하여 필요 패키지들을 설치합니다.  
 
 ### 사용 방법
 
-> `python measure_complexity.py`
-> `python measure_complexity.py --sizes 1000 2000 3000 4000 5000`
+```terminal
+python measure_complexity.py
+python measure_complexity.py --sizes 1000 2000 3000 4000 5000
+```
 
 위의 두 명령어로 사용이 가능합니다.  
 
@@ -27,7 +31,9 @@
 
 3. 함수 삽입은 아래와 같이 합니다.
 
-> `times, mem_mib, mem_kib = measure(eratosthenes, input_sizes)`
+```python
+times, mem_mib, mem_kib = measure(eratosthenes, input_sizes)
+```
 
 `101 lines`에 선언되어 있는 `eratosthenes` 함수는 테스트를 진행하기 위한 함수입니다.  
 
@@ -36,14 +42,20 @@
 
 ### Output
 
-> `time_complexity.png`
+```terminal
+time_complexity.png
+```
 
 시간 복잡도를 그래프로 보여주는 `output`입니다.
 
-> `memory_usage_kib.png
+```terminal 
+memory_usage_kib.png
+```
 
 공간 복잡도를 `KiB`단위로 보여주는 `output`입니다.
 
-> `memory_usage_mib.png`
+```terminal 
+memory_usage_mib.png
+```
 
 공간 복잡도를 `MiB`단위로 보여주는 `output`입니다.
