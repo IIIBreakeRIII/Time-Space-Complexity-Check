@@ -5,7 +5,7 @@
 > **Python 가상환경 변경**
 
 개인이 사용하고 있는 Python 가상환경으로 변경합니다.  
-이때, `matplotlib` 버전으로 인해, `3.10.x` 이상의 가상환경을 사용하는 것을 권장합니다.  
+이때, `matplotlib` 버전으로 인해, `Python 3.10.x` 이상의 가상환경을 사용하는 것을 권장합니다.  
 
 자세한 내용은, [matplotlib 공식 릴리즈 문서](https://discourse.matplotlib.org/t/matplotlib-announce-ann-matplotlib-3-10-0/25601)를 참고해주세요.  
 
